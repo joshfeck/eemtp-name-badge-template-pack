@@ -1,0 +1,87 @@
+.outside {
+	padding:20px;
+}
+.ticket {
+	font-family: sans-serif;
+	border: 1px solid black;
+	width: 600px;
+	padding:20px 10px;
+	text-align: justify;
+	margin:20px 0 0 0;
+}
+.ticket > div {
+	margin: 15px;
+}
+.top_event_title {
+	font-size: 36px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+.banner {}
+.banner img {
+	width: 100%;
+}
+.event {
+	font-size: 1.5em;
+	background-color: #415b2b;
+	color: #fff;
+	margin-bottom:0.5em;
+	padding: 10px;
+	border: 1px solid #415b2b;
+}
+.event em {
+	font-weight: bold;
+	font-style: normal;
+}
+.info-wrap {
+	background-color:#4060ab;
+	padding: 15px;
+	clear: both;
+}
+.name-wrap {
+	background-color: #fff;
+	padding: 15px;
+}
+.code {
+	margin: 15px;
+	background-color: #fff;
+	float: right;
+}
+.extra_info {
+	width: 100%;
+	padding: 10px;
+	text-align: justify;
+}
+.divider {
+	border-bottom:dashed #333 1px;
+	width: 100%;
+	height:1px;
+	margin:10px 0;
+}
+.footer {
+	font-size:11px;
+}
+.ee-barcode {
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+@page {
+  size: A6;
+  margin: 0;
+}
+@media print {
+  html, body {
+    width: 105mm;
+    height: 148mm;
+  }
+}
